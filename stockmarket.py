@@ -248,6 +248,22 @@ def add_stock(request):
 
 # AWS, GCP, Heroku, and Digital Ocean, etc.
 
+
+# 1. SSH Keys 
+ $ cd ~/
+ $ pwd
+/c/Users/IT-2
+
+$ mkdir .ssh
+
+$ cd .ssh
+
+$ ssh-keygen.exe
+
+$ ls
+
+$ cat id_rsa.pub
+
 # 1. Version Control With Git
 #  $ git config --global user.name "Nazmul Sheikh"
 # $ git config --global user.email "csenazmul77@gmail.com"
@@ -266,3 +282,9 @@ def add_stock(request):
 
 # Create .gitignore file
 # pip freeze > requirements.txt
+
+
+
+
+
+$ cat ~/.ssh/id_rsa.pub
